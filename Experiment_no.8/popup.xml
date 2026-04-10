@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/popup_english" android:title="English"/>
+    <item android:id="@+id/popup_spanish" android:title="Spanish"/>
+    <item android:id="@+id/popup_french" android:title="French"/>
+</menu>
