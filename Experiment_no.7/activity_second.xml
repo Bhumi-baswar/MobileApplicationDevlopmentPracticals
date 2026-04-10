@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Result Processing"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/circularBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnProcess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process Result"
+        android:layout_marginTop="10dp" />
+
+    <ProgressBar
+        android:id="@+id/marksBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/txtMarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Marks: 0"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/btnMarks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Marks"
+        android:layout_marginTop="10dp" />
+
+
+</LinearLayout>
