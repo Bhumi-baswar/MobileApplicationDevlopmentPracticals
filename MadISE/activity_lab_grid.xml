@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:padding="12dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_columnSpan="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laboratories in CSE Department"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- Row 1 -->
+    <TextView
+        android:id="@+id/lab1"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 1"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab1"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 2"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab2"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 3"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab3"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab4"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 4"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab4"
+        android:layout_margin="5dp"/>
+
+    <!-- Row 2 -->
+    <TextView
+        android:id="@+id/lab5"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 5"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab5"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab6"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 6"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab6"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab7"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 7"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab7"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab8"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 8"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab8"
+        android:layout_margin="5dp"/>
+
+    <!-- Row 3 -->
+    <TextView
+        android:id="@+id/lab9"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 9"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab9"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab10"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 10"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab10"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab11"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 11"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab11"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/lab12"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_columnWeight="1"
+        android:text="Lab 12"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:background="@drawable/lab12"
+        android:layout_margin="5dp"/>
+
+</GridLayout>
